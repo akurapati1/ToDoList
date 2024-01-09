@@ -19,7 +19,7 @@ const Todo = () => {
       setTodos([...todos, {no:noCount, text: inputRef.current.value, display: ""}]);
       noCount++;
       inputRef.current.value="";
-      localStorage.setItem("todos_count", data.length+1);
+      localStorage.setItem("todos_count", data.length+1); 
     }
     
   }
